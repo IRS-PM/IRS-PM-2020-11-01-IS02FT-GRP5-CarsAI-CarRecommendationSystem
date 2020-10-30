@@ -27,8 +27,7 @@ As an established car manufacturer, Audi is well known in the field of automobil
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![TravelAI](https://youtu.be/pTkbI4d4ZjM "
-CarsAI")
+[![CarsAI](https://youtu.be/pTkbI4d4ZjM "CarsAI")
 ---
 
 ## SECTION 5 : USER GUIDE
