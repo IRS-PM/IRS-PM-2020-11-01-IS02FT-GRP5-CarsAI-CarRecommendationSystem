@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="../../public/js/jquery-3.4.1.min.js"></script>
+  <title>Home</title>
+  <!-- web fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <!-- //web fonts -->
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="../public/css/style-starter.css">
+</head>
+
+<body>
+  <!-- Top Menu 1 -->
+  <section class="w3l-top-menu-1">
+    <div class="top-hd">
+      <div class="container">
+        <header class="row">
+          <div class="social-top col-sm-6 col-6 pl-0">
+            <li>Welcome to CarsAI</li>
+
+          </div>
+          <div class="accounts col-sm-6 col-6 pr-0">
+            <li class="top_li1"><a href="#">Login</a></li>
+            <li class="top_li2"><a href="#">Register</a></li>
+          </div>
+
+        </header>
+      </div>
+    </div>
+  </section>
+  <!-- //Top Menu 1 -->
+  <section class="w3l-bootstrap-header">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index"><span>Audi</span>CarsAI</a>
+        <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+        <a class="navbar-brand" href="#index" <img src="public/images/g1.jpg" alt="Your logo" title="Your logo"
+          style="height:35px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="otherservice">Other services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs">FAQs</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="w3l-main-slider" id="home">
+    <!-- main-slider -->
+    <div class="companies20-content">
+
+      <div class="owl-one owl-carousel owl-theme">
+        <div class="item">
+          <li>
+            <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
+              <div class="banner-info">
+                <div class="container">
+                  <div class="banner-info-bg mx-auto text-center">
+                    <h5>Choose your <bold>desirable car</bold>
+                      right now</h5>
+                    <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="faqs">Ask Questions</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="item">
+          <li>
+            <div class="slider-info  banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
+              <div class="banner-info">
+                <div class="container">
+                  <div class="banner-info-bg mx-auto text-center">
+                    <h5>Pick your <bold>Exclusive vehicles</bold>
+                      with CarsAI</h5>
+                    <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="faqs">Ask Questions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="item">
+          <li>
+            <div class="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
+              <div class="banner-info">
+                <div class="container">
+                  <div class="banner-info-bg mx-auto text-center">
+                    <h5>Welcome to <bold>your</bold>
+                      CarsAI</h5>
+                    <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="faqs">Ask Questions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="item">
+          <li>
+            <div class="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
+              <div class="banner-info">
+                <div class="container">
+                  <div class="banner-info-bg mx-auto text-center">
+                    <h5>Help you <bold>pick</bold>
+                      your favorate car</h5>
+                    <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="faqs">Ask Questions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+    <script src="public/js/owl.carousel.js"></script>
+    <!-- script for -->
+    <script>
+      $(document).ready(function () {
+        $('.owl-one').owlCarousel({
+          loop: true,
+          margin: 0,
+          nav: false,
+          responsiveClass: true,
+          autoplay: false,
+          autoplayTimeout: 5000,
+          autoplaySpeed: 1000,
+          autoplayHoverPause: false,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false
+            },
+            480: {
+              items: 1,
+              nav: false
+            },
+            667: {
+              items: 1,
+              nav: true
+            },
+            1000: {
+              items: 1,
+              nav: true
+            }
+          }
+        })
+      })
+    </script>
+    <!-- //script -->
+    <!-- /main-slider -->
+  </section>
+
+
+    <!-- Search Form -->
+    
+    <!-- Optional JavaScript -->
+    <!-- Scripts -->
+<!-- contact form -->
+<section class="w3l-contacts-2">
+	<div class="contacts-main">
+		
+		<div class="form-41-mian py-5">
+			<div class="container py-md-3">
+				<h3 class="cont-head">CarsAI Chatbot</h3>
+				<div class="d-grid align-form-map">
+					<div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+						<iframe allow="microphone;" width="350" height="400"
+            src="https://console.dialogflow.com/api-client/demo/embedded/0ddc0454-a77d-46e6-8ed9-302b3ab09e1a">
+            </iframe>
+					
+							<div class="text-left">
+								<button id="button-search1" type="submit" class="btn btn-secondary btn-theme2 mt-md-3 mt-4" style="width: 350px; height: 40px; margin-top: 20px;"
+                      onclick="ShowResult()">Show Result
+                </button>
+							</div>
+		
+					</div>
+					
+					<div>
+          	<div class="text-center">
+						  <label id="label"  Style="font-family:arial;color:#DC8617;font-size:18px;text-align:center;font-family:verdana" class="cont-head" name="label"></label>
+            </div>
+
+            <img id="carimg" src="public/images/g1.jpg" class="img-responsive" width="820px" height="320px" alt="" src="">
+            <table id ="myTable" border="1" style="display: none;">
+                      <tr>
+                        <th>price/RMB</th>
+                        <th>intake</th>
+                        <th>displacement</th>
+                        <th>drive</th>
+                        <th>power</th>
+                        <th>engine</th>
+                        <th>curise</th>
+                      </tr>
+            </table>
+					</div>
+				</div>
+			</div>
+		</div>
+    <!-- 这里是agent的link -->
+ 
+
+
+    <!-- 脚本部分 -->
+    <script>
+        function ShowResult() {
+            $.ajax({
+                url: '/getCarResult',
+                type: 'get',
+                dataType: 'json',
+                success: function (data) {
+                    if (data.result.code == 200) {
+                        // 车辆数据在这里赋值 data.car包含了数据库中一辆车所有的数据
+                        // 这段话的意思是把data.car.brand_id 车名 赋给 id为label的一个label
+                        // 车辆数据还有.price .intake_id .displacement .drive_id .max_power .engine_id .curise_id
+                        // 这些值同样可以赋在表格内
+                        // data.car.price  data.car.intake_id .....
+                        document.getElementById("carimg").src = data.car.pic_address
+                        document.getElementById('label').innerHTML = data.car.brand_id;
+                        var table = document.getElementById("myTable");
+                        table.style.display = "block";
+                        var row = table.insertRow(1);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        var cell5 = row.insertCell(4);
+                        var cell6 = row.insertCell(5);
+                        var cell7 = row.insertCell(6);
+
+                        cell1.innerHTML = data.car.price;
+                        cell2.innerHTML = data.car.intake_id;
+                        cell3.innerHTML = data.car.displacement;
+                        cell4.innerHTML = data.car.drive_id;
+                        cell5.innerHTML = data.car.max_power;
+                        cell6.innerHTML = data.car.engine_id;
+                        cell7.innerHTML = data.car.curise_id;
+                    } else {
+                        alert('服务器忙请稍后再试');
+                    }
+                }
+            })
+        }
+    </script>
+    <!-- 脚本部分 -->
+  </section>
+  <section class="w3l-index6" id=FAQs">
+    <div class="features-with-17_sur py-5">
+      <div class="container py-lg-5">
+        <div class="features-with-17-top_sur">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1 mb-3">
+                  <span class="fa fa-lightbulb-o" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">
+                      <bold>Business </bold> Value
+                    </a></h6>
+                  <p> Due to the impact of the current epidemic,
+                    the level of consumption of valuables has declined
+                    due to the inability to buy in the store,
+                    With CarsAI, Car shopping will be easier and more efficient.
+
+                  </p>
+                  <a href="faqs" class="actionbg">Read More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1 mb-3">
+                  <span class="fa fa-recycle" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">
+                      <bold>Team </bold> member
+                    </a></h6>
+                  <p> The Group5 in Machine Reasoning System module, is composed of four students from IS major in
+                    NUS-ISS.
+                    Students have different academic backgrounds, strong cooperation and innovation ability </p>
+                  <a href="faqs" class="actionbg">Read More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1 mb-3">
+                  <span class="fa fa-bar-chart" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">
+                      <bold>Marketing</bold> Analytics
+                    </a> </h6>
+                  <p> After market surveys,
+                    more than 90% of users are willing to use online car selection,
+                    and more than 80% of auto companies are willing to use such platform software</p>
+                  <a href="faqs" class="actionbg">Read More </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="w3l-footer-29-main">
+    <div class="footer-29">
+      <div class="container">
+        <div class="d-grid grid-col-4 footer-top-29">
+          <div class="footer-list-29 footer-1">
+            <h6 class="footer-title-29">Contact Us</h6>
+            <ul>
+              <li>
+                <p><span class="NUS-ISS-IS-Group5"></span> NUS-ISS-Group5.Singapore</p>
+              </li>
+              <li><a href="tel:+65-98845645"><span class="fa fa-phone"></span> +(21)-255-999-8888</a></li>
+              <li><a href="E56643434@u.nus.edu" class="mail"><span class="fa fa-envelope-open-o"></span>
+                  corporate-mail@support.com</a></li>
+            </ul>
+            <div class="main-social-footer-29">
+              <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+              <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+              <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+              <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
+              <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="footer-list-29 footer-2">
+            <ul>
+              <h6 class="footer-title-29">Featured Links</h6>
+              <li><a href="contact">Our People</a></li>
+              <li><a href="contact">Latest Media</a></li>
+              <li><a href="contact">Our Branches</a></li>
+              <li><a href="contact">Organisations</a></li>
+              <li><a href="contact">Help</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-29 footer-3">
+
+            <h6 class="footer-title-29">Newsletter </h6>
+            <p class="mb-3">Get in your inbox the latest News and</p>
+            <form action="#" class="subscribe" method="post">
+              <input type="email" name="email" placeholder="Email" required="">
+              <button><span class="fa fa-envelope-o"></span></button>
+            </form>
+            <p>Subscribe and get our weekly newsletter</p>
+            <p>We'll never share your email address</p>
+
+          </div>
+          <div class="footer-list-29 footer-4">
+            <ul>
+              <h6 class="footer-title-29">Quick Links</h6>
+              <li><a href="index">Home</a></li>
+              <li><a href="otherservice">Other services</a></li>
+              <li><a href="FAQs">FAQs</a></li>
+              <li><a href="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</body>
+
+</html>
