@@ -8,8 +8,9 @@
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Affected by the COVID-19, many industries have been hit hard, and the automobile industry is no exception. Dealers cannot restore the original customer flow soon. It is undoubtedly a massive loss for vehicle manufacturers, especially whose sale is over millions. At the same time, the usual after-sales business cannot be carried out due to the pandemic. Consumers feel great inconvenience in both pre-sales and after-sales services. Therefore, it is essential to open up new online services.
-As an established car manufacturer, Audi is well known in the field of automobile. To help Audi tide over the difficulties, we designed a car recommendation system, which saves human resources in the sales process, brings a personalized shopping experience to consumers, and improve the user experience of after-sales services. The system allows Audi to gain more advantages in the automotive market competition and make up for the pandemic's losses.
+
+Affected by the COVID-19, many industries have been hit hard, and the automobile industry is no exception. Dealers cannot restore the original customer flow soon. It is undoubtedly a massive loss for vehicle manufacturers, especially whose sale is over millions. At the same time, the usual after-sales business cannot be carried out due to the pandemic. Consumers feel great inconvenience in both pre-sales and after-sales services. Therefore, it is essential to open up new online services. As an established car manufacturer, Audi is well known in the field of automobile. To help Audi tide over the difficulties, we designed a car recommendation system, which saves human resources in the sales process, brings a personalized shopping experience to consumers, and improve the user experience of after-sales services. The system allows Audi to gain more advantages in the automotive market competition and make up for the pandemic's losses.
+
 ---
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
