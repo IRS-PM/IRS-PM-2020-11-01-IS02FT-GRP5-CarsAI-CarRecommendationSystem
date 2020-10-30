@@ -2,7 +2,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## CarsAI - Car Recommendation System.
 
-<img src="https://img.youtube.com/vi/yWLNFtkZtb8/0.jpg"
+<img src="https://github.com/se7ven012/IRS-PM-2020-10-31-IS02PT-GRP5-CarsAI-CarRecommendationSystem/blob/master/Miscellaneous/pic.png"
      style="float: left; margin-right: 0px;" />
 
 ---
@@ -27,7 +27,7 @@ As an established car manufacturer, Audi is well known in the field of automobil
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![CarsAI](https://youtu.be/pTkbI4d4ZjM "CarsAI")
+[![CarsAI(https://github.com/se7ven012/IRS-PM-2020-10-31-IS02PT-GRP5-CarsAI-CarRecommendationSystem/blob/master/Miscellaneous/pic.png)](https://youtu.be/pTkbI4d4ZjM)
 ---
 
 ## SECTION 5 : USER GUIDE
